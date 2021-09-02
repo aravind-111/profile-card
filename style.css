@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
   margin: 0%;
   /* padding: 0%; */
   /* box-sizing: border-box; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -15,16 +17,17 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .main_container {
   position: absolute;
-  /* top: 50%; */
-  /* left: 50%; */
+  top: 50%;
+  left: 50%;
   background-color: black;
   overflow: hidden;
   border-radius: 7px;
-  /* transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 
 .container {
@@ -52,11 +55,11 @@ body {
 
 .layer {
   position: absolute;
-  top: 28%;
+  top: 26%;
   width: 100%;
   height: 3px;
   background: #fff;
-  /* z-index: -1; */
+  z-index: -1;
   transition: 0.4s ease;
   overflow: hidden;
 }
@@ -81,29 +84,32 @@ body {
 .button a {
   display: block;
   text-decoration: none;
-  padding: 4px;
+  padding: 1px;
   border-radius: 5px;
   width: 100px;
   height: 35px;
-  line-height: 25px;
+  line-height: 32px;
   text-align: center;
   border: 1px solid #fff;
   color: #fff;
   transition: 0.4s easy;
+  /* line-height: -60px; */
 }
 
 .container:hover .layer {
-  height: 100%;
+  height: 71.9%;
+  width: 95%;
+  background: #fff;
 }
 
 .container:hover .details {
-  color: #040404;
+  color: black;
 }
 
 .container:hover .profile_pic {
-  transform: scale(0.85);
-  transition: 0.6s ease-out;
-  box-shadow: 1px 5px 15px;
+  transform: scale(90%);
+  transition: 1s ease-out;
+  box-shadow: 1px 5px ravindan15px;
 }
 
 .container:hover .button a {
@@ -115,6 +121,7 @@ body {
 .container:hover .skills {
   opacity: 1;
 }
+
 img {
   width: 30px;
   height: 30px;
