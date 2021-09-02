@@ -77,7 +77,7 @@ body {
   margin: 0.3rem;
   text-align: center;
   opacity: 0;
-  filter: drop-shadow(0px 3px 15px);
+  /* filter: drop-shadow(0px 3px 15px); */
   transition: 0.4s ease;
 }
 
@@ -109,7 +109,7 @@ body {
 .container:hover .profile_pic {
   transform: scale(90%);
   transition: 1s ease-out;
-  box-shadow: 1px 5px ravindan15px;
+  box-shadow: 1px 5px 15px;
 }
 
 .container:hover .button a {
